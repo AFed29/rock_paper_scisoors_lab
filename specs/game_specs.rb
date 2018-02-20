@@ -10,17 +10,17 @@ class TestGame < MiniTest::Test
   end
 
   def test_run__paper_beats_rock
-    game = Game.new(@rock, @paper)
-    assert_equal("paper wins!", game.run)
+    game = Game.new(@paper, @rock)
+    assert_equal("Player 1 wins with paper!", game.run)
   end
 
   def test_run__draw
     game = Game.new(@rock, @rock)
-    assert_equal("it's a draw!", game.run)
+    assert_equal("It's a draw!", game.run)
   end
 
   def test_run__scissors_beaten_by_rock
     game = Game.new(@scissors, @rock)
-    assert_equal("rock wins!", game.run)
+    assert_equal("Player 2 wins with rock!", game.run)
   end
 end

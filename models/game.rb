@@ -7,15 +7,15 @@ class Game
   def run()
     case
     when @hand1 == @hand2
-      return "it's a draw!"
+      return "It's a draw!"
     when (
       (@hand1 == "paper" && @hand2 == "rock") ||
       (@hand1 == "rock" && @hand2 == "scissors") ||
       (@hand1 == "scissors" && @hand2 == "paper")
     )
-    return "#{@hand1} wins!"
+    return "Player 1 wins with #{@hand1}!"
   else
-    return "#{@hand2} wins!"
+    return "Player 2 wins with #{@hand2}!"
   end
 end
 
