@@ -1,0 +1,19 @@
+body {
+  position: relative;
+  background-color: royalblue;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  text-align: left;
+}
+
+body > ul {
+  display: inline-block;
+}
+
+a { color: yellow;
+
+}
