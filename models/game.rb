@@ -5,6 +5,22 @@ class Game
   end
 
   def run()
+
+    # hash = {
+    #   "rock" => "scissors",
+    #   "scissors" => "paper",
+    #   "paper" => "rock"
+    # }
+    #
+    # if( hash[@hand1] == @hand2 )
+    #   return "Player 1 wins with " + @hand1
+    # elsif( hash[@hand2] == @hand1 )
+    #   return "Player 2 wins with " + @hand2
+    # else
+    #   return "Draw"
+    # end
+
+
     case
     when @hand1 == @hand2
       return "It's a draw!"
