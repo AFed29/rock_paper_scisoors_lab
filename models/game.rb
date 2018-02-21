@@ -26,9 +26,9 @@ class Game
       (hand1 == "scissors" && hand2 == "paper")
     )
     return "Player 1 wins with #{hand1}!"
-  else
+    else
     return "Player 2 wins with #{hand2}!"
+    end
   end
-end
 
 end
